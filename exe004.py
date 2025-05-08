@@ -1,0 +1,6 @@
+n1 = input ('Digite algo: ')
+print (type (n1))
+print ('Possui apenas números ?', n1.isnumeric())
+print ('Possui apenas letras ?', n1.isalpha())
+print ('Possui letras e/ou números ?', n1.isalnum())
+print ('Está em caixa alta ?', n1.isupper())
