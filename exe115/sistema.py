@@ -1,7 +1,7 @@
 
 from time import sleep
-from exe115.lib.interface import *
-from exe115.lib.arquivo import *
+from lib.interface import *
+from lib.arquivo import *
 
 arquivo='Banco de dados.txt'
 if not arqExiste(arquivo):
